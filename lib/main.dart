@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:maqueta_prueba/pages/map_page.dart';
-
-import 'inicio.dart';
+import 'package:maqueta_prueba/registro.dart';
 
 void main() {
   runApp(MyApp());
@@ -30,7 +29,7 @@ class MyApp extends StatelessWidget {
         // const Locale('en'),
       ],
       title: 'Lima App',
-      home: MapPage(),
+      home: Registro(),
     );
   }
 }
