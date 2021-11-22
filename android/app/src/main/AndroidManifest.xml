@@ -3,6 +3,10 @@
    <application
         android:label="maqueta_prueba"
         android:icon="@mipmap/ic_launcher">
+
+       <meta-data android:name="com.google.android.geo.API_KEY"
+           android:value="AIzaSyBoxWEREBVHTgCzVy41I9sbyQgTkIJVe8U"/>
+
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
